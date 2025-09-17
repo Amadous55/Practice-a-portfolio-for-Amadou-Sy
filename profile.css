@@ -1,0 +1,56 @@
+
+:root {
+  --primary: #983fe6;   
+  --bg: #f8f5ff;
+  --text: #111;
+}
+
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  margin: 0;                  
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+
+header {
+  background: var(--primary) !important;
+  color: #fff !important;
+  text-align: center !important;
+  padding: 24px 16px !important;
+}
+header h1 { margin: 0 0 6px 0 !important; }
+
+
+header nav a { color: #ffd105 !important; text-decoration: none; margin-right: 12px; }
+nav a { color: var(--primary); text-decoration: none; margin-right: 12px; }
+nav a:hover { text-decoration: underline; }
+
+
+main { width: min(100% - 32px, 900px); margin: 0 auto; }
+section { margin: 24px 0; }
+
+table { 
+  border-collapse: collapse; 
+  width: 100%; 
+  max-width: 600px; 
+  background: #e9dddd;            
+  border: 1px solid #ccc;
+}
+th, td { border: 1px solid #ccc; padding: 6px 8px; text-align: left; }
+
+
+form { display: grid; gap: 8px; max-width: 420px; }
+label { font-weight: 600; }
+input, textarea, button { font: inherit; padding: 6px 8px; }
+
+
+footer {
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 16px;
+  background: #fff;
+}
